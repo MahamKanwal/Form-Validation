@@ -1,0 +1,189 @@
+Layout
+
+    container: Centers the content and sets a max-width.
+    mx-auto: Centers an element horizontally.
+    my-auto: Centers an element vertically.
+    grid: Creates a grid container.
+    grid-cols-{n}: Specifies the number of columns in a grid.
+    gap-{size}: Sets the gap between grid items.
+    flex: Creates a flex container.
+    flex-col: Sets flex direction to column.
+    flex-row: Sets flex direction to row.
+    justify-center: Centers flex items horizontally.
+    items-center: Centers flex items vertically.
+
+Typography
+
+    text-{size}: Sets font size.
+    font-{name}: Sets font family.
+    font-bold: Makes text bold.
+    italic: Makes text italic.
+    uppercase: Transforms text to uppercase.
+    capitalize: Capitalizes each word.
+    truncate: Truncates overflowing text.
+
+Colors
+
+    bg-{color}: Sets background color.
+    text-{color}: Sets text color.
+    border-{color}: Sets border color.
+    hover:bg-{color}: Sets background color on hover.
+    hover:text-{color}: Sets text color on hover.
+
+Spacing
+
+    m-{size}: Sets margin.
+    p-{size}: Sets padding.
+    mt-{size}: Sets margin-top.
+    pt-{size}: Sets padding-top.
+    mb-{size}: Sets margin-bottom.
+    pb-{size}: Sets padding-bottom.
+    mx-{size}: Sets horizontal margin.
+    px-{size}: Sets horizontal padding.
+
+Borders
+
+    border: Adds a border.
+    rounded-{size}: Rounds corners.
+    border-{side}-{size}: Sets border width.
+    border-{side}-{style}: Sets border style.
+
+Effects
+
+    shadow-{size}: Adds shadow.
+    opacity-{value}: Sets opacity.
+
+Responsive
+
+    sm, md, lg, xl: Responsive breakpoints.
+    sm:{utility}, md:{utility}, etc.: Applies utility at specified breakpoint.
+
+    Flexbox
+
+    flex-grow: Allows flex items to grow to fill available space.
+    flex-shrink: Allows flex items to shrink if necessary.
+    flex-wrap: Specifies whether flex items are forced onto one line or can wrap onto multiple lines.
+    justify-start, justify-end, justify-between, justify-around, justify-evenly: Aligns flex items horizontally.
+    items-start, items-end, items-center, items-baseline, items-stretch: Aligns flex items vertically.
+    self-start, self-end, self-center, self-baseline, self-stretch: Aligns a single flex item vertically.
+
+Forms
+
+    form: Sets up basic form styles.
+    input, textarea, select, checkbox, radio: Applies base styles to form elements.
+    focus:outline-none: Removes outline on focus.
+    placeholder-{color}: Sets color for placeholder text.
+    focus:placeholder-{color}: Sets color for placeholder text on focus.
+    disabled: Styles elements as disabled.
+
+Interactivity
+
+    cursor-pointer: Sets cursor to pointer.
+    pointer-events-none: Disables pointer events.
+    select-none: Prevents text selection.
+
+Responsive Breakpoints
+
+    sm, md, lg, xl: Small, medium, large, and extra-large breakpoints.
+    min-w-{size}, max-w-{size}: Sets minimum and maximum width.
+    min-h-{size}, max-h-{size}: Sets minimum and maximum height.
+    sm:{utility}, md:{utility}, etc.: Applies utility at specified breakpoint.
+
+Transitions
+
+    transition-{property}: Applies a transition to the specified property.
+    duration-{time}: Sets the duration of the transition.
+    ease-{type}: Sets the easing function for the transition.
+    delay-{time}: Delays the start of the transition.
+
+    Overflow and Visibility
+
+    overflow-hidden, overflow-auto, overflow-scroll, overflow-x-{value}, overflow-y-{value}: Controls overflow behavior.
+    visible, invisible: Toggles visibility of an element.
+
+Positioning
+
+    static, fixed, absolute, relative, sticky: Controls positioning behavior.
+    top-{value}, bottom-{value}, left-{value}, right-{value}: Sets position offsets.
+    z-{value}: Sets the z-index of an element.
+
+Grid System
+
+    grid-cols-{n}, grid-rows-{n}: Defines the number of columns or rows in a grid.
+    col-span-{n}, row-span-{n}: Spans multiple columns or rows.
+    col-start-{n}, col-end-{n}, row-start-{n}, row-end-{n}: Specifies the start and end positions of grid items.
+
+Flexbox Alignment
+
+    justify-start, justify-end, justify-center, justify-between, justify-around, justify-evenly: Horizontal alignment for flex containers.
+    items-start, items-end, items-center, items-baseline, items-stretch: Vertical alignment for flex containers.
+    space-x-{size}, space-y-{size}: Adds space between flex items in a row or column.
+
+Sizing
+
+    w-{size}, h-{size}: Sets width and height.
+    min-w-{size}, min-h-{size}, max-w-{size}, max-h-{size}: Sets minimum and maximum width and height.
+    aspect-ratio-{ratio}: Sets aspect ratio.
+
+Visibility
+
+    visible, invisible: Toggles visibility of an element.
+    opacity-{value}: Sets opacity level.
+
+SVG and Background Images
+
+    bg-{image}, bg-cover, bg-contain, bg-no-repeat, bg-fixed, bg-local, bg-scroll: Handles background images.
+    stroke-current, fill-current: Sets the stroke and fill color of SVG elements.
+
+    Customizing Spacing
+
+    space-x-{size}, space-y-{size}: Adds space between elements in a flex container.
+    space-{size}: Sets both horizontal and vertical spacing between elements.
+    gap-{size}: Sets the gap between grid items.
+
+Customizing Colors
+
+    from-{color}, to-{color}: Specifies gradient colors.
+    via-{color}: Specifies a middle gradient color.
+    divide-{color}: Sets the color for dividing lines between elements.
+    divide-opacity-{value}: Sets the opacity of dividing lines.
+
+Hover and Focus Variants
+
+    hover:{utility}: Applies a utility on hover.
+    focus:{utility}: Applies a utility when an element receives focus.
+    group-hover:{utility}: Applies a utility when a parent element is hovered.
+    focus-within:{utility}: Applies a utility when an element or any of its descendants receive focus.
+
+Transitions and Animations
+
+    transition-{property}, duration-{time}, ease-{type}, delay-{time}: Controls transition effects.
+    animate-{name}: Applies pre-defined animations.
+
+Responsive Typography
+
+    text-{size}, sm:text-{size}, md:text-{size}, etc.: Sets font size responsively.
+    truncate: Truncates overflowing text responsively.
+
+Responsive Sizing
+
+    w-{size}, sm:w-{size}, md:w-{size}, etc.: Sets width responsively.
+    h-{size}, sm:h-{size}, md:h-{size}, etc.: Sets height responsively.
+    min-w-{size}, sm:min-w-{size}, md:min-w-{size}, etc.: Sets minimum width responsively.
+
+Utilities for Accessibility
+
+    focus:outline-{size}, focus:outline-{color}, focus:outline-{opacity}: Customizes focus outlines.
+    screen-reader-text: Hides an element visually but keeps it accessible to screen readers.
+    not-sr-only: Makes an element visible to screen readers but hides it visually.
+
+Advanced Layout
+
+    grid-flow-{direction}: Controls the flow of grid items.
+    grid-auto-{rows}, grid-auto-{cols}: Sets the size of auto-generated grid tracks.
+    divide-{direction}-{size}: Adds dividing lines between elements in a grid or flex container.
+
+Dark Mode Utilities
+
+    dark:{utility}: Applies a utility specifically for dark mode.
+    dark:text-{color}, dark:bg-{color}, etc.: Sets text and background colors for dark mode.
